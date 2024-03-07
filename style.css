@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;;
+}
+body{
+    width: 100%;
+    background: #DDF0F0FF;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.container{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 20px;
+    background: #EBFFFFFF;
+}
+.titlebar{
+    height: 10%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+
+    letter-spacing: 5px;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+}
+
+.margin-top{
+    margin-top: 5%;
+}
+.searchbar{
+    width: 50%;
+    height: 5%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#input{
+    width: 80%;
+    height: 100%;
+    border-radius: 3px ;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    background: white;
+
+}
+#searchbutton{
+    width: 10%;
+    max-width:150px;
+    height: 100%;
+    border-radius: 3px;
+    border:  1px solid black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background:  #DDF0F0FF;
+    cursor: pointer;
+
+}
+.searchbutton:hover{
+    background: #D3E6E6FF;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+
+}
+.card{
+    width: 30%;
+    height: 70%;
+    background: #DDF0F0FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card h1{
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 20px;
+}
+
+#fore {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    background: #EBFFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px ;
+}
+.cards h1{
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.cards h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin: 10px;
+}
